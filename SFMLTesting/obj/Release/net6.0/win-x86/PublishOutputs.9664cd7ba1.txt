@@ -1,0 +1,9 @@
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\SFMLTesting.pdb
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\Node.png
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\Poppins-Regular.ttf
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\csfml-Audio.dll
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\csfml-Graphics.dll
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\csfml-System.dll
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\csfml-Window.dll
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\openal32.dll
+D:\Stuff\Code\C#\SFMLTesting\SFMLTesting\bin\Release\net6.0\publish\win-x86\SFMLTesting.exe

@@ -1,0 +1,3 @@
+D:\Stuff\Code\C#\SFMLTesting\publish\SFMLTesting.pdb
+D:\Stuff\Code\C#\SFMLTesting\publish\Node.png
+D:\Stuff\Code\C#\SFMLTesting\publish\SFMLTesting.exe
