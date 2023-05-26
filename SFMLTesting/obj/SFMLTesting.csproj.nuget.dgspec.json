@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Stuff\\Code\\C#\\SFMLTesting\\SFMLTesting\\SFMLTesting.csproj": {}
+    "C:\\Users\\lukeb\\Downloads\\AlevelProjectTesting\\SFMLTesting\\SFMLTesting.csproj": {}
   },
   "projects": {
-    "D:\\Stuff\\Code\\C#\\SFMLTesting\\SFMLTesting\\SFMLTesting.csproj": {
+    "C:\\Users\\lukeb\\Downloads\\AlevelProjectTesting\\SFMLTesting\\SFMLTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Stuff\\Code\\C#\\SFMLTesting\\SFMLTesting\\SFMLTesting.csproj",
+        "projectUniqueName": "C:\\Users\\lukeb\\Downloads\\AlevelProjectTesting\\SFMLTesting\\SFMLTesting.csproj",
         "projectName": "SFMLTesting",
-        "projectPath": "D:\\Stuff\\Code\\C#\\SFMLTesting\\SFMLTesting\\SFMLTesting.csproj",
+        "projectPath": "C:\\Users\\lukeb\\Downloads\\AlevelProjectTesting\\SFMLTesting\\SFMLTesting.csproj",
         "packagesPath": "C:\\Users\\lukeb\\.nuget\\packages\\",
-        "outputPath": "D:\\Stuff\\Code\\C#\\SFMLTesting\\SFMLTesting\\obj\\",
+        "outputPath": "C:\\Users\\lukeb\\Downloads\\AlevelProjectTesting\\SFMLTesting\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
