@@ -1,4 +1,5 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
 using SFML.Window;
 using SFML.Graphics;
 using SFML.System;
@@ -13,12 +14,13 @@ namespace SFMLTesting
         static List<Sprite> nodes = new List<Sprite>();
         static List<RectangleShape> edges = new List<RectangleShape>();
 
-        static int numberOfNodes = 4;
+        static int numberOfNodes = 3;
         static int nodeCircleRadius = 300;
         static int selectedNode;
         static bool movingNode = false;
         static Vector2i movingNodeOffset;
         static bool dragAndDrop = true;
+        static int edgeWidth = 10;
 
         static bool leftMouseButtonDown = false;
 
@@ -30,7 +32,7 @@ namespace SFMLTesting
         static void Main(string[] args)
         {
             window = new RenderWindow(new VideoMode(1280, 720), "Hello wurld");
-            window.SetFramerateLimit(60);
+            //window.SetFramerateLimit(60);
             //window.SetVerticalSyncEnabled(true);
 
             window.Closed += (sender, e) =>
@@ -38,7 +40,7 @@ namespace SFMLTesting
                 window.Close();
             };
 
-            Texture nodeTexture = new Texture("Node.png");
+            Texture nodeTexture = new Texture("Circle.png");
             Font poppinsFont = new Font("Poppins-Regular.ttf");
 
             debugText = new Text("FPS : ", poppinsFont);
@@ -64,7 +66,7 @@ namespace SFMLTesting
             {
                 for (int j = nodes.Count - 1; j >= i; j--)
                 {
-                    edges.Add(VectorLine(nodes[i].Position, nodes[j].Position, 20));
+                    edges.Add(VectorLine(nodes[i].Position, nodes[j].Position, 1));
                 }
             }
 
@@ -149,7 +151,7 @@ namespace SFMLTesting
             {
                 for (int j = nodes.Count - 1; j >= i; j--)
                 {
-                    edges.Add(VectorLine(nodes[i].Position, nodes[j].Position, 20));
+                    edges.Add(VectorLine(nodes[i].Position, nodes[j].Position, edgeWidth));
                 }
             }
         }
